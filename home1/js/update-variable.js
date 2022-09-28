@@ -1,0 +1,10 @@
+var inStrock;
+var shipping;
+inStrock =true;
+shipping =false;
+inStrock = false;
+shipping = true;
+var elStrock =document.getElementById('strock');
+elStrock.className =inStrock;
+var elShip =document.getElementById('shipping');
+elShip.className =shipping;
